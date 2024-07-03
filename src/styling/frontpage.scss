@@ -1,0 +1,31 @@
+.frontpage{
+    margin: 80px;
+    .textbox{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100%;
+
+        .text{
+            font-size: 25px;
+        }
+
+        .name{
+            font-size: 40px;
+        }
+        
+        .function{
+            font-size: 40px;
+            color: #377747;
+        }
+    }
+    .picture{
+        width: 204px;
+        height: 266px;
+        border-radius: 15px;
+        background-image: url('../assets/me.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+}

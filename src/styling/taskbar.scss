@@ -1,5 +1,30 @@
 .taskbar{
-  .first-title{
-    background-color: green;
-  }  
+  display: flex;
+  justify-content: space-between;
+
+  .logo{
+    background-image: url('../assets/logo-black.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    // background-color: green;
+    align-self: center;
+    width: 45px;
+    height: 45px;
+  }
+
+  .menu{
+    display: flex;
+    justify-content: flex-end;
+    align-self: center;
+    gap: 30px;
+    padding: 20px 0;
+
+    a{
+      color: black;
+      text-decoration: none;
+      padding: 0;
+      margin: 0;
+    }
+  }
 }

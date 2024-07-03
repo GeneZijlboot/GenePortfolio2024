@@ -1,0 +1,17 @@
+.about{
+    .title-wrapper{
+        display: flex;
+        gap: 5px;
+        align-items: baseline;
+        .number{
+            font-size: 20px;
+        }
+        .title{
+            font-weight: 600;
+            font-size: 40px;
+        }
+    }
+    .textblock{
+        margin: 30px 30px 30px 30px;
+    }
+}

@@ -1,3 +1,26 @@
-.taskbar .first-title {
-  background-color: green;
+.taskbar {
+  display: flex;
+  justify-content: space-between;
+}
+.taskbar .logo {
+  background-image: url("../assets/logo-black.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  align-self: center;
+  width: 45px;
+  height: 45px;
+}
+.taskbar .menu {
+  display: flex;
+  justify-content: flex-end;
+  align-self: center;
+  gap: 30px;
+  padding: 20px 0;
+}
+.taskbar .menu a {
+  color: black;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
 }/*# sourceMappingURL=taskbar.css.map */

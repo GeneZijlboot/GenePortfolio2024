@@ -3,18 +3,12 @@ import '../styling/taskbar.scss';
 function taskbar() {
     return (
       <div className="taskbar">
-        <div className="container">
-          <div className="row">
-            <div className="col-md-2">
-              <div className="first-title">
-                <p>jskdbfhsbfjks</p>
-              </div>
-            </div>
-            <div className="col-md-5"></div>
-            <div className="col-md-5">
-              <p>another test bahah</p>
-            </div>
-          </div>
+        <div className="logo"></div>
+        <div className="menu">
+          <a href='#about'>About</a>
+          <a href='#Project'>Project</a>
+          <a href='#About'>About</a>
+          <a href='#Contact'>Contact</a>
         </div>
       </div>
     )

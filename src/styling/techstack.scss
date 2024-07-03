@@ -1,0 +1,14 @@
+.techstack{
+    .title-wrapper{
+        display: flex;
+        gap: 5px;
+        align-items: baseline;
+        .number{
+            font-size: 20px;
+        }
+        .title{
+            font-weight: 600;
+            font-size: 40px;
+        }
+    }
+}
