@@ -9,4 +9,8 @@
 .techstack .title-wrapper .title {
   font-weight: 600;
   font-size: 40px;
+}
+.techstack .carousel .slick-slide {
+  background-color: green;
+  margin: 20px;
 }/*# sourceMappingURL=techstack.css.map */
