@@ -8,7 +8,7 @@ function Techstack() {
     infinite: true,
     centerMode: true,
     speed: 5000,
-    slidesToShow: 4,
+    slidesToShow: 6,
     slidesToScroll: 2,
     autoplay: true,
     autoplaySpeed: 0,
@@ -27,21 +27,40 @@ function Techstack() {
         <div className="title">techstack</div>
       </div>
       <div className="text-box">Skills & <span style={{ color: '#377747' }}>Tools</span></div>
-      {/* <div className="slider-wrapper"></div> */}
-            <Slider {...settings}>
-              <div>
-                <h3>FIRST SLIDE</h3>
-              </div>
-              <div>
-                <h3>SECOND SLIDE</h3>
-              </div>
-              <div>
-                <h3>THIRD SLIDE</h3>
-              </div>
-              <div>
-                <h3>FOURTH SLIDE</h3>
-              </div>
-            </Slider>
+      <div className="slider-wrapper">
+        <Slider {...settings}>
+          <div className="slide-content">
+            <div className="image-wrapper">
+              <div className="image"></div>
+            </div>
+            <div className="title-wrapper">HTML</div>
+          </div>
+          <div className="slide-content">
+            <div className="image-wrapper">
+              <div className="image"></div>
+            </div>
+            <div className="title-wrapper">CSS</div>
+          </div>
+          <div className="slide-content">
+            <div className="image-wrapper">
+              <div className="image"></div>
+            </div>
+            <div className="title-wrapper">Javascript</div>
+          </div>
+          <div className="slide-content">
+            <div className="image-wrapper">
+              <div className="image"></div>
+            </div>
+            <div className="title-wrapper">React</div>
+          </div>
+          <div className="slide-content">
+            <div className="image-wrapper">
+            <div className="image"></div>
+            </div>
+            <div className="title-wrapper">Bootstrap</div>
+          </div>
+        </Slider>
+      </div>
     </div>
   );
 }

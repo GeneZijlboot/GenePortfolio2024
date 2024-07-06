@@ -18,11 +18,41 @@
       justify-content: center;
     }
   
-      .carousel {
-        .slick-slide {
-          background-color: green;
-          margin: 20px;
+    .slider-wrapper {
+      .slick-slide {
+        .slide-content {
+          height: 100px;
+          
+          .image-wrapper {
+            display: flex !important;
+            justify-content: center;
+            .image{
+              background-image: url('../assets/techstack/HTML5.png');
+              background-repeat: no-repeat;
+              background-size: cover;
+              margin: 10px 0;
+              height: 50px;
+              width: 50px;
+              
+            }
+          }
+    
+          .title-wrapper {
+            display: none;
+            justify-content: center;
+          }
         }
+    
+        &:hover {
+          .slide-content {
+            .title-wrapper {
+              display: flex;
+            }
+          }
+        }
+      }
     }
-  }
+    
+    
+}
   
