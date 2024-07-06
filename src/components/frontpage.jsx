@@ -8,7 +8,7 @@ function frontpage() {
     useEffect(() => {
         if (typewriterRef.current) {
             new Typewriter(typewriterRef.current, {
-                strings: ['Full Stack Developer', 'MERN-Stack Developer'],
+                strings: ['Full Stack Developer', 'MERN-Stack Developer', 'Coffee enthusiast'],
                 autoStart: true,
                 loop: true,
             });

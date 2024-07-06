@@ -10,6 +10,11 @@
   font-weight: 600;
   font-size: 40px;
 }
+.techstack .text-box {
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+}
 .techstack .carousel .slick-slide {
   background-color: green;
   margin: 20px;
