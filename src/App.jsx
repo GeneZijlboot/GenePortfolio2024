@@ -22,6 +22,7 @@ function App() {
                 <About />
                 <Devider />
                 <Techstack />
+                <Devider />
               </div>
             </div>
           </div>

@@ -19,6 +19,7 @@
     }
   
     .slider-wrapper {
+      margin: 50px 0;
       .slick-slide {
         .slide-content {
           height: 100px;
@@ -26,14 +27,29 @@
           .image-wrapper {
             display: flex !important;
             justify-content: center;
+
             .image{
-              background-image: url('../assets/techstack/HTML5.png');
               background-repeat: no-repeat;
-              background-size: cover;
+              background-size: contain;
               margin: 10px 0;
               height: 50px;
               width: 50px;
-              
+            }
+
+            .html{
+              background-image: url('../assets/techstack/HTML5.png');
+            }
+            .css{
+              background-image: url('../assets/techstack/CSS3.png');
+            }
+            .javascript{
+              background-image: url('../assets/techstack/JavaScript.png');
+            }
+            .react{
+              background-image: url('../assets/techstack/React.png');
+            }
+            .bootstrap{
+              background-image: url('../assets/techstack/HTML5.png');
             }
           }
     

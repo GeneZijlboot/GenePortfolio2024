@@ -31,31 +31,31 @@ function Techstack() {
         <Slider {...settings}>
           <div className="slide-content">
             <div className="image-wrapper">
-              <div className="image"></div>
+              <div className="image html"></div>
             </div>
             <div className="title-wrapper">HTML</div>
           </div>
           <div className="slide-content">
             <div className="image-wrapper">
-              <div className="image"></div>
+              <div className="image css"></div>
             </div>
             <div className="title-wrapper">CSS</div>
           </div>
           <div className="slide-content">
             <div className="image-wrapper">
-              <div className="image"></div>
+              <div className="image javascript"></div>
             </div>
             <div className="title-wrapper">Javascript</div>
           </div>
           <div className="slide-content">
             <div className="image-wrapper">
-              <div className="image"></div>
+              <div className="image react"></div>
             </div>
             <div className="title-wrapper">React</div>
           </div>
           <div className="slide-content">
             <div className="image-wrapper">
-            <div className="image"></div>
+            <div className="image bootstrap"></div>
             </div>
             <div className="title-wrapper">Bootstrap</div>
           </div>
