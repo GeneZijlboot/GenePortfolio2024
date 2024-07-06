@@ -49,15 +49,39 @@ function Techstack() {
           </div>
           <div className="slide-content">
             <div className="image-wrapper">
-              <div className="image react"></div>
+              <div className="image tailwind"></div>
+            </div>
+            <div className="title-wrapper">Tailwind</div>
+          </div>
+          <div className="slide-content">
+            <div className="image-wrapper">
+            <div className="image react"></div>
             </div>
             <div className="title-wrapper">React</div>
           </div>
           <div className="slide-content">
             <div className="image-wrapper">
-            <div className="image bootstrap"></div>
+            <div className="image nodejs"></div>
             </div>
-            <div className="title-wrapper">Bootstrap</div>
+            <div className="title-wrapper">NodeJs</div>
+          </div>
+          <div className="slide-content">
+            <div className="image-wrapper">
+            <div className="image mongodb"></div>
+            </div>
+            <div className="title-wrapper">MongoDB</div>
+          </div>
+          <div className="slide-content">
+            <div className="image-wrapper">
+            <div className="image mongoose"></div>
+            </div>
+            <div className="title-wrapper">Mongoose</div>
+          </div>
+          <div className="slide-content">
+            <div className="image-wrapper">
+            <div className="image express"></div>
+            </div>
+            <div className="title-wrapper">Express</div>
           </div>
         </Slider>
       </div>
